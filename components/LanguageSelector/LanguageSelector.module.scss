@@ -1,0 +1,30 @@
+.languageSelector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+
+  .selectedLanguage {
+    color: #353535;
+    font-family: Arial;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .languageMenuButton {
+
+    width: 24px;
+    height: 24px;
+
+    svg {
+      display: block;
+    }
+
+  }
+
+  .languageMenu {
+    display: none;
+  }
+}
