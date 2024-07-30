@@ -1,0 +1,27 @@
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .footerLink {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+  
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  .footerCopyright {
+    font-size: 0.8rem;
+    color: #666;
+  }
