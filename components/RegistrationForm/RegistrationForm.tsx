@@ -40,8 +40,9 @@ const RegistrationForm: React.FC = () => {
             <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} />
           </div>
           <div className={styles.inputPassword}>
-            <label htmlFor="password">Ստեղծել գաղտնաբառ</label>
+            <label htmlFor="password">Ստեղծել գաղտնաբառ</label> 
             <input type="password" id="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+            
           </div>
           <div className={styles.repeatPassword}>
             <label htmlFor="repeatPassword">Կրկնել գաղտնաբառը</label>
@@ -62,6 +63,10 @@ const RegistrationForm: React.FC = () => {
               Մուտք գործել
             </div>
           </div>
+          <footer className={styles.footer}>
+      <a href="#">Պայմաններ և դրույթներ</a> • 
+      <a href="#">Օգնություն</a> • Reprenta 2025 ©
+            </footer>
         </form>
       </div>
     </main>
